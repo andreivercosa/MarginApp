@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{28838372-AE34-4BD2-9402-94E3A0DA541F}|Default">
+  <MonoDevelop.Ide.ItemProperties.MarginApp.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MarginApp/MainPage.xaml.cs">
+    <Files>
+      <File FileName="MarginApp/MainPage.xaml.cs" Line="36" Column="41" />
+      <File FileName="MarginApp/MainPage.xaml.cs" Line="25" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MarginApp" expanded="True">
+            <Node name="MarginApp" expanded="True">
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MarginApp.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+</Properties>

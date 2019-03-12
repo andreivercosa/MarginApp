@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MarginApp"
+             x:Class="MarginApp.MainPage">
+    <StackLayout BackgroundColor="Gray" Orientation="Vertical">
+        <!-- Place new controls here -->
+        <Label Text="Welcome to Xamarin.Forms!"
+               FontSize="25"
+               HorizontalOptions="Center"
+               VerticalOptions="Start"
+               Margin="10,90,10,0"
+               FontAttributes="Bold"
+               TextColor="Lime"
+               />
+        
+        <Slider Margin="10,50,10,0"
+                Minimum="0"
+                Maximum="360"
+                x:Name="slider"
+                ValueChanged="equilibrio"
+                />
+        
+        <Label Text="-- ESTAVEL --"
+               
+               x:Name="rodante"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               TextColor="White"
+               FontSize="20"
+               
+               BindingContext="{x:Reference Name= slider}" 
+               Rotation="{Binding Path=Value}"
+            />
+         <Label Text="0" 
+               x:Name="label_valueSlider"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               TextColor="White"
+               FontSize="80"
+               Margin="10,0,10,50"
+            />
+    </StackLayout>
+</ContentPage>
